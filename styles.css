@@ -1,0 +1,326 @@
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    background-color: black;
+}
+
+.nav-link{
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  margin: 10px;
+}
+
+.about-link{
+    color: #f3950d;
+}
+
+.myname{
+    color: white;
+}
+
+#title{
+    background-image: url(home.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.navbar{
+    font-size: 30px;
+    position: fixed-top;
+}
+
+.a-title{
+    color: #f3950d;
+    font-size: 4rem;
+    line-height: 1;
+    padding: 20% 20% 0% 15%;
+}
+
+
+.about_introText{
+        line-height:1.5;
+        font-size: 1.8rem;
+        color: white;
+        margin: 5% 0% 10% 15%;  
+        text-align: left;  
+    
+}
+
+.auto-type{
+    color: #f3950d;
+}
+
+.arrow{
+    color: #f3950d;
+    position: relative;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    cursor:pointer;
+    margin-top: 2rem;
+    margin-bottom: 9rem;
+}
+
+
+
+
+/*The card animation starts here*/
+
+.project-head{
+    text-align: center;
+    color: #fff;
+    padding: 3%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 5rem;
+}
+
+.projb{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding-bottom: 3rem;
+}
+
+.snip1543{
+    background-color: #000;
+    color: #000;
+    font-size: 16px;
+    margin: 10px;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 550px;
+    max-height: 550px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.snip1543 *,
+.snip1543 *:before,
+.snip1543 *:after{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.45s ease;
+    transition: all 0.45s ease;
+}
+
+.snip1543 img{
+    backface-visibility: hidden;
+    width: 400px;
+    height: 550px;
+
+}
+
+.snip1543:before,
+.snip1543:after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: #f3950d;
+    opacity: 0.7;
+    -webkit-transition: all 0.45s ease;
+    transition: all o.45s ease;
+}
+
+.snip1543:before{
+    -webkit-transform: skew(30deg) translate(-80%);
+    transform: skew(30deg) translate(-80%);
+}
+
+.snip1543:after{
+    -webkit-transform: skew(-30deg) translateX(-70%);
+    transform: skew(-30deg) translateX(-70%);
+}
+
+.snip1543 figcaption{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    bottom: 0;
+    padding: 25px 40% 25px 20px;
+}
+
+.snip1543 figcaption:before,
+.snip1543 figcaption:after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f3950d;
+    box-shadow: 0 0 20px rgba(207, 94, 19, 0.7);
+    content: '';
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.snip1543 figcaption:before{
+    -webkit-transform: skew(30deg) translate(-100%) ;
+    transform: skew(30deg) translate(-100%);
+}
+
+.snip1543 figcaption:after{
+    -webkit-transform: skew(-30deg) translate(-90%);
+    transform: skew(-30deg) translate(-90%);
+}
+
+.snip1543 h3,
+.snip1543 p {
+    margin: 0;
+    opacity: 0;
+}
+
+.snip1543 h3{
+    font-family: 'Inconsolata', monospace;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 2.2rem;
+    inline-size: 300px;
+    overflow-wrap:normal;
+    text-transform: uppercase;
+}
+
+
+.snip1543 p{
+    padding: 30px 0 0 0;
+    font-size: 1.1rem;
+    inline-size: 300px;
+    overflow-wrap:break-word;
+    font-weight: 700;
+
+}
+
+.snip1543 a{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+.snip1543 figcaption:before{
+    -webkit-transform: skew(30deg) translateX(-100%);
+    transform: skew(30deg) translateX(-100%);
+}
+
+.snip1543 figcaption:after{
+    -webkit-transform: skew(-30deg) translateX(-90%);
+    transform: skew(-30deg) translateX(-90%);
+}
+
+.snip1543:hover h3,
+.snip1543.hover h3,
+.snip1543:hover p,
+.snip1543.hover p{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0.9;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.25s;
+}
+
+.snip1543:hover:before,
+.snip1543.hover:before{
+    -webkit-transform: skew(30deg) translateX(-20%);
+    transform: skew(30deg) translateX(-20%);
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+}
+
+.snip1543:hover:after,
+.snip1543.hover:after{
+    -webkit-transform: skew(-30deg) translateX(-10%);
+    transform: skew(-30deg) translateX(-10%);
+}
+
+.snip1543:hover figcaption:before,
+.snip1543.hover figcaption:before{
+    -webkit-transform: skew(30deg) translateX(-40%);
+    transform: skew(30deg) translateX(-40%);
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+.snip1543:hover figcaption:after,
+.snip1543.hover figcaption:after{
+    -webkit-transform: skew(-30deg) translateX(-40%);
+    transform: skew(-30deg) translateX(-40%);
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+/*The card edit has finished*/
+
+
+#skills{
+    color: #fff;
+    padding: 10px;
+}
+
+.sk{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    opacity: 0.5;
+}
+
+.sktitle{
+    text-align: center;
+    font-size: 50px;
+    margin: 100px 0 0 0;
+    font-weight: 700;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.skillslist{
+    padding: 5%;
+}
+
+.skillset{
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    float:left;
+    line-height: 100px;
+    background: #f3950d;
+    border-radius: 50%;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+
+
+.skillset:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #000;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+}
+
+.skillset:hover:before{
+    transform: scale(1);
+}
