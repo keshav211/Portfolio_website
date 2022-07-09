@@ -324,3 +324,113 @@ body{
 .skillset:hover:before{
     transform: scale(1);
 }
+
+
+
+/* footer ka style kar raha hoo idhar */
+#section_65e1b68c7{
+-webkit-text-size-adjust: 100%;
+word-wrap: break-word;
+-webkit-font-smoothing: antialiased;
+box-sizing: inherit;
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+display: flex;
+flex-direction: column;
+border-style: solid;
+position: relative;
+width: 100%;
+padding-top: 3.3333333333333335rem;
+padding-bottom: 8.333333333333334rem;
+background-color: #000000;
+}
+
+#row_f06194d78{
+-webkit-text-size-adjust: 100%;
+word-wrap: break-word;
+-webkit-font-smoothing: antialiased;
+box-sizing: inherit;
+margin: 0;
+border: 0;
+vertical-align: baseline;
+width: 100%;
+margin-right: auto;
+margin-left: auto;
+display: flex;
+flex-wrap: wrap;
+padding: 0 1.66667rem 0 1.66667rem;
+max-width: 1230px;
+}
+
+
+#column_624cb74ec{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    width: calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
+    flex: 0 0 auto;
+    flex-basis: calc(100% / 12 * 4);
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+    border-style: solid;
+    position: relative;
+}
+
+#column_f1e9584c2{    -webkit-text-size-adjust: 100%;
+    
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    width: calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
+    flex: 0 0 auto;
+    flex-basis: calc(100% / 12 * 4);
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+    border-style: solid;
+    position: relative;}
+
+#column_89d1d756c{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    width: calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
+    flex: 0 0 auto;
+    flex-basis: calc(100% / 12 * 4);
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+    border-style: solid;
+    position: relative;
+}
+
+#contact{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #f3950d;
+    background-color: black;
+}
